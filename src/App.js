@@ -3,7 +3,9 @@ import Person from './components/Person';
 
 const App = () => {
   return (
-    <div>
+    <div className="flex border-2 border-slate-500">
+      <Person />
+      <Person />
       <Person />
     </div>
   );

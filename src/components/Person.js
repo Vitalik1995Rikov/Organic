@@ -5,7 +5,8 @@ const Person = () => {
   const api = 'https://rickandmortyapi.com/api/character/5';
 
   const [allData, setAllData] = useState([]);
-  const { name } = allData;
+  const { id, name, image, status, species, gender, location } = allData;
+  console.log(allData);
 
   useEffect(() => {
     (async function () {
@@ -17,6 +18,9 @@ const Person = () => {
   return (
     <div>
       <ul>{name}</ul>
+      <ul>{status}</ul>
+      <ul>{species}</ul>
+      <ul>{gender}</ul>
     </div>
   );
 };
