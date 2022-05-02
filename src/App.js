@@ -9,6 +9,7 @@ import OtherProducts from './components/OtherProducts';
 import EcoFriendly from './components/EcoFriendly';
 import ThreeCards from './components/ThreeCards';
 import News from './components/News';
+import Subscribe from './components/Subscribe';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <EcoFriendly />
       <ThreeCards />
       <News />
+      <Subscribe />
     </div>
   );
 };
