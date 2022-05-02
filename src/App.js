@@ -11,6 +11,7 @@ import ThreeCards from './components/ThreeCards';
 import News from './components/News';
 import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
+import Rights from './components/Rights';
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <News />
       <Subscribe />
       <Footer />
+      <Rights />
     </div>
   );
 };
