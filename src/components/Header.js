@@ -6,11 +6,13 @@ let Header = function () {
       <button>
         <img src="../../assets/org.png" alt="img" />
       </button>
-      <button>Home</button>
-      <button>About Us</button>
-      <button>Shop</button>
-      <button>Pages</button>
-      <button>Contact Us</button>
+      <div>
+        <button>Home</button>
+        <button>About Us</button>
+        <button>Shop</button>
+        <button>Pages</button>
+        <button>Contact Us</button>
+      </div>
       <button className="rounded-full bg-[#D4D4D4]">
         <img src="../../assets/basket.png" alt="img" />
         Basket

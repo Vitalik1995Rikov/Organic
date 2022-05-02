@@ -6,7 +6,7 @@ import AboutUs from './components/AboutUs';
 
 const App = () => {
   return (
-    <div className="flex font-ro">
+    <div className="flex flex-col">
       <Header />
       <Welcome />
       <Cards />
