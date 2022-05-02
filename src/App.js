@@ -10,6 +10,7 @@ import EcoFriendly from './components/EcoFriendly';
 import ThreeCards from './components/ThreeCards';
 import News from './components/News';
 import Subscribe from './components/Subscribe';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <ThreeCards />
       <News />
       <Subscribe />
+      <Footer />
     </div>
   );
 };
