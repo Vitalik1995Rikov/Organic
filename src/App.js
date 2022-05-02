@@ -8,6 +8,7 @@ import WhatCustomerSay from './components/WhatCustomerSay';
 import OtherProducts from './components/OtherProducts';
 import EcoFriendly from './components/EcoFriendly';
 import ThreeCards from './components/ThreeCards';
+import News from './components/News';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <OtherProducts />
       <EcoFriendly />
       <ThreeCards />
+      <News />
     </div>
   );
 };
