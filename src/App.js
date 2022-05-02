@@ -6,6 +6,7 @@ import AboutUs from './components/AboutUs';
 import OurProducts from './components/OurProducts';
 import WhatCustomerSay from './components/WhatCustomerSay';
 import OtherProducts from './components/OtherProducts';
+import EcoFriendly from './components/EcoFriendly';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <OurProducts />
       <WhatCustomerSay />
       <OtherProducts />
+      <EcoFriendly />
     </div>
   );
 };
