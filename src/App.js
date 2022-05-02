@@ -1,12 +1,10 @@
 import React from 'react';
-import Person from './components/Person';
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <div className="flex border-2 border-slate-500">
-      <Person />
-      <Person />
-      <Person />
+    <div className="">
+      <Header />
     </div>
   );
 };
