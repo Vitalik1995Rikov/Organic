@@ -9,11 +9,12 @@ let array = [
 
 let OurProducts = () => {
   return (
-    <ul>
+    <ul className="flex">
       {array.map((item) => (
         <li>
           <button>{item.head}</button>
           <img src={item.img} alt="img" />
+          <p>{item.name}</p>
         </li>
       ))}
     </ul>
