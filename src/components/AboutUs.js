@@ -14,8 +14,8 @@ let AboutUs = () => {
         </p>
         <div className="flex">
           <div>
-            <img src="../../assets/One.png" alt="img" />
-            <img src="../../assets/Two.png" alt="img" />
+            <img src="../../assets/AboutOne.png" alt="img" />
+            <img src="../../assets/AboutTwo.png" alt="img" />
           </div>
           <div>
             <h1>Organic Foods Only</h1>
