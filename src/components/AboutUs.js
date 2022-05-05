@@ -12,9 +12,16 @@ let AboutUs = () => {
           We have grown on the principles of health, and care. We aim to give our customers a
           healthy chemical-free meal for perfect nutrition.
         </p>
-        <div>
-          <img src="../../assets/One.png" alt="img" />
-          <img src="../../assets/Two.png" alt="img" />
+        <div className="flex">
+          <div>
+            <img src="../../assets/One.png" alt="img" />
+            <img src="../../assets/Two.png" alt="img" />
+          </div>
+          <div>
+            <h1>Organic Foods Only</h1>
+            <h1>Quality Standarts</h1>
+          </div>
+          <button>Show now</button>
         </div>
       </div>
     </div>
