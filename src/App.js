@@ -15,7 +15,7 @@ import Rights from './components/Rights';
 
 const App = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-[1440px]">
       <Header />
       <Welcome />
       <Cards />

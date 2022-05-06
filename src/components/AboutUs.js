@@ -1,6 +1,6 @@
 let AboutUs = () => {
   return (
-    <div>
+    <div className="flex">
       <div>
         <img src="../../assets/About Us.png" alt="img" />
       </div>
