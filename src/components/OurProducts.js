@@ -9,7 +9,7 @@ let array = [
 
 let OurProducts = () => {
   return (
-    <ul className="flex">
+    <ul className="grid grid-cols-3 grid-rows-2 mr-5">
       {array.map((item) => (
         <li>
           <button>{item.head}</button>
