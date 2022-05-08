@@ -1,6 +1,6 @@
 let WhatCustomerSay = () => {
   return (
-    <div>
+    <div className="bg-[url('../../assets/WhatCus.png')] flex flex-col items-center">
       <p>Testimonial</p>
       <p>What customer saying</p>
       <img src="../../assets/Face.png" alt="img" />

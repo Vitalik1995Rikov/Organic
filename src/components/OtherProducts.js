@@ -1,14 +1,12 @@
 let OtherProducts = () => {
   return (
-    <div className="bg-[#274C5B]">
-      <div className="flex">
-        <div>
-          <p>Other Products</p>
-          <p>We Offer Organic For You</p>
-        </div>
-        <div>
-          <button>View All Products</button>
-        </div>
+    <div className="flex flex-col items-center bg-[#274C5B]">
+      <div>
+        <p>Other Products</p>
+        <p>We Offer Organic For You</p>
+      </div>
+      <div>
+        <button>View All Products</button>
       </div>
       <div className="grid grid-cols-3">
         <div>

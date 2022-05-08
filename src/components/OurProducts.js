@@ -9,7 +9,7 @@ let array = [
 
 let OurProducts = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <div>
         <p>Organic</p>
         <p>Our Products</p>

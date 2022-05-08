@@ -1,6 +1,6 @@
 let AboutUs = () => {
   return (
-    <div className="flex">
+    <div className="flex justify-center">
       <div>
         <img src="../../assets/About Us.png" alt="img" />
       </div>

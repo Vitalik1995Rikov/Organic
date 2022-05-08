@@ -1,6 +1,6 @@
 let Welcome = () => {
   return (
-    <div className="w-{1440}">
+    <div>
       <img src="../../assets/Welcome.png" alt="img" />
       <p>Made With Nature</p>
       <p>Welocme to the world of nature and organic.</p>
