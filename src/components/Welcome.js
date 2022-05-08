@@ -3,7 +3,7 @@ let Welcome = () => {
     <div>
       <img src="../../assets/Welcome.png" alt="img" />
       <p>Made With Nature</p>
-      <p>Welocme to the world of nature and organic.</p>
+      <p>Welcome to the world of nature and organic.</p>
       <button>Explore New</button>
     </div>
   );
