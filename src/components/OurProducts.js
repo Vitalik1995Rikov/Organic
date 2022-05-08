@@ -9,23 +9,29 @@ let array = [
 
 let OurProducts = () => {
   return (
-    <ul className="grid grid-cols-3 grid-rows-2">
-      {array.map((item) => (
-        <li className="bg-[#F9F8F8] rounded-md mr-5 mb-5">
-          <button className="bg-[#274C5B] ml-8 mt-8 rounded py-1 px-5 text-[#FFFFFF]">
-            {item.head}
-          </button>
-          <img src={item.img} alt="img" />
-          <p className="text-[#274C5B]">{item.name}</p>
-          <hr />
-          <div className="flex">
-            <p>$ 25.00 USD</p>
-            <p>$ 21.00 USD</p>
-            <img src="../../assets/stars.png" alt="img" />
-          </div>
-        </li>
-      ))}
-    </ul>
+    <div>
+      <div>
+        <p>Organic</p>
+        <p>Our Products</p>
+      </div>
+      <ul className="grid grid-cols-3 grid-rows-2">
+        {array.map((item) => (
+          <li className="bg-[#F9F8F8] rounded-md mr-5 mb-5">
+            <button className="bg-[#274C5B] ml-8 mt-8 rounded py-1 px-5 text-[#FFFFFF]">
+              {item.head}
+            </button>
+            <img src={item.img} alt="img" />
+            <p className="text-[#274C5B]">{item.name}</p>
+            <hr />
+            <div className="flex">
+              <p>$ 25.00 USD</p>
+              <p>$ 21.00 USD</p>
+              <img src="../../assets/stars.png" alt="img" />
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 

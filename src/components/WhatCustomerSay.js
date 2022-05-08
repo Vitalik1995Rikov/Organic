@@ -11,6 +11,25 @@ let WhatCustomerSay = () => {
       <p>takes me back to my childhood when we were growing our own.</p>
       <p>Sara Taylor</p>
       <p>Consumer</p>
+      <hr />
+      <div className="flex">
+        <div>
+          <p>100%</p>
+          <p>Organic</p>
+        </div>
+        <div>
+          <p>285</p>
+          <p>Active Product</p>
+        </div>
+        <div>
+          <p>385+</p>
+          <p>Organic Orchads</p>
+        </div>
+        <div>
+          <p>25+</p>
+          <p>Years of Farming</p>
+        </div>
+      </div>
     </div>
   );
 };
