@@ -10,7 +10,7 @@ let OtherProducts = () => {
           <button>View All Products</button>
         </div>
       </div>
-      <div className="flex">
+      <div className="grid grid-cols-3">
         <div>
           <button>Vegetable</button>
           <img src="../../assets/Tomato.png" alt="img" />
