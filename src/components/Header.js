@@ -2,7 +2,7 @@ import React from 'react';
 
 let Header = function () {
   return (
-    <div className="flex my-10 px-8 justify-between">
+    <div className="flex my-10 px-8 justify-between h-[72px]">
       <button>
         <img src="../../assets/org.png" alt="img" />
       </button>
