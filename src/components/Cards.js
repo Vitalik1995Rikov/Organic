@@ -17,14 +17,14 @@ let data = [
 
 let Cards = () => {
   return (
-    <div className="flex justify-center w-[1380] my-[140px]">
+    <div className="flex justify-center w-[1380] my-[140px] mx-[30px] space-x-[50px]">
       {data.map((item) => (
         <div
           className={
             `
               bg-[url('../../assets/` +
             item.img +
-            `.png')] h-[378px] w-[665px] mr-[50px] text-[#FFFFFF] flex flex-col justify-center
+            `.png')] h-[378px] w-[665px] px-[55px] text-[#FFFFFF] text-3xl flex flex-col justify-center
             `
           }>
           <p>{item.name}</p>
@@ -32,16 +32,6 @@ let Cards = () => {
           <p>{item.lastContent}</p>
         </div>
       ))}
-      {/* <div className="bg-[url('../../assets/One.png')] h-[378px] w-[665px] mr-[50px] text-[#FFFFFF] flex flex-col justify-center">
-        <p>Natural!!</p>
-        <p>Get Garden</p>
-        <p>Fresh Fruits</p>
-      </div>
-      <div className="bg-[url('../../assets/Two.png')] h-[378px] w-[665px] text-[#274C5B]">
-        <p>Other!!</p>
-        <p>Get 10% off</p>
-        <p>on Vegetables</p>
-      </div> */}
     </div>
   );
 };
