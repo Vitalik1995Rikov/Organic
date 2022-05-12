@@ -13,7 +13,7 @@ let Header = function () {
         <button className="mr-10">Pages</button>
         <button className="mr-10">Contact Us</button>
       </div>
-      <button className="rounded-full border-2 border-[#D4D4D4] flex items-center h-[70px] w-[159px]">
+      <button className="rounded-full border-[1px] border-[#D4D4D4] flex items-center h-[70px] w-[159px]">
         <img className="ml-[11px]" src="../../assets/basket.png" alt="img" />
         <p className="ml-[10px] text-lg">Cart 0</p>
       </button>
