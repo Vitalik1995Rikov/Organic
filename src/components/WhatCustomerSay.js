@@ -1,3 +1,10 @@
+let data = [
+  { number: '100%', name: 'Organic' },
+  { number: '285', name: 'Active Product' },
+  { number: '385+', name: 'Organic Orchads' },
+  { number: '25+', name: 'Years of Farming' },
+];
+
 let WhatCustomerSay = () => {
   return (
     <div className="bg-[url('../../assets/WhatCus.png')] flex flex-col items-center h-[1248px]">
@@ -13,22 +20,12 @@ let WhatCustomerSay = () => {
       <p>Consumer</p>
       <hr />
       <div className="flex">
-        <div className="w-[250px] h-[250px] border-2 rounded-full border-[#7EB693] flex flex-col justify-center items-center">
-          <p>100%</p>
-          <p>Organic</p>
-        </div>
-        <div>
-          <p>285</p>
-          <p>Active Product</p>
-        </div>
-        <div>
-          <p>385+</p>
-          <p>Organic Orchads</p>
-        </div>
-        <div>
-          <p>25+</p>
-          <p>Years of Farming</p>
-        </div>
+        {data.map((item) => (
+          <div className="w-[250px] h-[250px] border-2 rounded-full border-[#7EB693] flex flex-col justify-center items-center">
+            <p>{item.number}</p>
+            <p>{item.name}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
