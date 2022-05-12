@@ -1,6 +1,6 @@
 let WhatCustomerSay = () => {
   return (
-    <div className="bg-[url('../../assets/WhatCus.png')] flex flex-col items-center">
+    <div className="bg-[url('../../assets/WhatCus.png')] flex flex-col items-center h-[1248px]">
       <p>Testimonial</p>
       <p>What customer saying</p>
       <img src="../../assets/Face.png" alt="img" />
@@ -13,7 +13,7 @@ let WhatCustomerSay = () => {
       <p>Consumer</p>
       <hr />
       <div className="flex">
-        <div>
+        <div className="w-[250px] h-[250px] border-2 rounded-full border-[#7EB693] flex flex-col justify-center items-center">
           <p>100%</p>
           <p>Organic</p>
         </div>
