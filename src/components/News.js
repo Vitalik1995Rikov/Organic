@@ -3,8 +3,8 @@ let News = () => {
     <div>
       <h1>News</h1>
       <div className="flex">
-        <p>Discover The Recent Content About Organic Products</p>
-        <button>More News</button>
+        <p className="text-3xl">Discover The Recent Content About Organic Products</p>
+        <button className="bg-[#EFD372] text-[#274C5B] rounded w-64 h-20">More News</button>
       </div>
       <div className="flex">
         <div className="h-96 w-96">
