@@ -1,3 +1,10 @@
+let data = [
+  { id: 1, img: '../../assets/Facebook.png' },
+  { id: 2, img: '../../assets/Twitter.png' },
+  { id: 3, img: '../../assets/Instagram.png' },
+  { id: 4, img: '../../assets/Pinterest.png' },
+];
+
 let Footer = () => {
   return (
     <div className="flex h-[630px]">
@@ -15,13 +22,13 @@ let Footer = () => {
         <p>
           We are a popular and farming company aspiring to be a leader in the Organic food industry.
         </p>
-        <div className="w-[60px] h-[60px] mr-[30px] rounded-full bg-[#EFF6F1] flex flex-col justify-center items-center">
-          <img src="../../assets/Facebook.png" alt="img" />
+        <div className="flex">
+          {data.map((item) => (
+            <div className="w-[60px] h-[60px] mr-[30px] rounded-full bg-[#EFF6F1] flex flex-col justify-center items-center">
+              <img src={item.img} alt="img" />
+            </div>
+          ))}
         </div>
-
-        <img src="../../assets/Twitter.png" alt="img" />
-        <img src="../../assets/Instagram.png" alt="img" />
-        <img src="../../assets/Pinterest.png" alt="img" />
       </div>
       <div>
         <h1>Utility Pages</h1>
