@@ -7,8 +7,8 @@ let data = [
 
 let Footer = () => {
   return (
-    <div className="flex h-[630px]">
-      <div>
+    <div className="flex h-[630px] py-[120px] px-[30px]">
+      <div className="w-[270px] h-[369px]">
         <h1>Contact Us</h1>
         <p className="mt-[34px]">Email</p>
         <p className="mt-[5px]">needhelp@organick.com</p>
@@ -17,7 +17,8 @@ let Footer = () => {
         <p className="mt-[38px]">Address</p>
         <p className="mt-[5px]">88 Road, Brooklyn Street, USA</p>
       </div>
-      <div>
+      <img src="../../assets/Rectangle.png" alt="img" />
+      <div className="w-[670px] h-[369px]">
         <img src="../../assets/org.png" alt="img" />
         <p className="mt-[58px]">We are a popular and farming company aspiring to be a leader</p>
         <p>in the Organic food industry.</p>
@@ -29,7 +30,8 @@ let Footer = () => {
           ))}
         </div>
       </div>
-      <div>
+      <img src="../../assets/Rectangle.png" alt="img" />
+      <div className="w-[335px] h-[369px]">
         <h1>Utility Pages</h1>
         <p>Style Guide</p>
         <p>Protected</p>
