@@ -19,10 +19,9 @@ let Footer = () => {
       </div>
       <div>
         <img src="../../assets/org.png" alt="img" />
-        <p>
-          We are a popular and farming company aspiring to be a leader in the Organic food industry.
-        </p>
-        <div className="flex">
+        <p className="mt-[58px]">We are a popular and farming company aspiring to be a leader</p>
+        <p>in the Organic food industry.</p>
+        <div className="flex mt-[60px]">
           {data.map((item) => (
             <div className="w-[60px] h-[60px] mr-[30px] rounded-full bg-[#EFF6F1] flex flex-col justify-center items-center">
               <img src={item.img} alt="img" />
@@ -32,9 +31,7 @@ let Footer = () => {
       </div>
       <div>
         <h1>Utility Pages</h1>
-        <p className="w-[25px] h-[25px] mr-[30px] border-2 rounded-full border-[#7EB693]">
-          Style Guide
-        </p>
+        <p>Style Guide</p>
         <p>Protected</p>
         <p>Page Not Found</p>
         <p>Changelog</p>
