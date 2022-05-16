@@ -31,13 +31,13 @@ let Footer = () => {
         </div>
       </div>
       <img src="../../assets/Rectangle.png" alt="img" />
-      <div className="w-[335px] h-[369px] ">
+      <div className="w-[335px] h-[369px] pl-[19px]">
         <h1 className="text-3xl">Utility Pages</h1>
-        <p>Style Guide</p>
-        <p>Protected</p>
-        <p>Page Not Found</p>
-        <p>Changelog</p>
-        <p>Licenses</p>
+        <p className="mt-[20px]">Style Guide</p>
+        <p className="mt-[24px]">Protected</p>
+        <p className="mt-[24px]">Page Not Found</p>
+        <p className="mt-[24px]">Changelog</p>
+        <p className="mt-[24px]">Licenses</p>
       </div>
     </div>
   );
