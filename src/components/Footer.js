@@ -18,7 +18,7 @@ let Footer = () => {
         <p className="mt-[5px]">88 Road, Brooklyn Street, USA</p>
       </div>
       <img src="../../assets/Rectangle.png" alt="img" />
-      <div className="w-[670px] h-[369px]">
+      <div className="w-[670px] h-[369px] flex flex-col items-center">
         <img src="../../assets/org.png" alt="img" />
         <p className="mt-[58px]">We are a popular and farming company aspiring to be a leader</p>
         <p>in the Organic food industry.</p>
@@ -31,8 +31,8 @@ let Footer = () => {
         </div>
       </div>
       <img src="../../assets/Rectangle.png" alt="img" />
-      <div className="w-[335px] h-[369px]">
-        <h1>Utility Pages</h1>
+      <div className="w-[335px] h-[369px] ">
+        <h1 className="text-3xl">Utility Pages</h1>
         <p>Style Guide</p>
         <p>Protected</p>
         <p>Page Not Found</p>

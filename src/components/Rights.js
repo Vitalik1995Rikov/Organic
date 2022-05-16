@@ -4,7 +4,7 @@ let Rights = () => {
       <div>
         <img src="../../assets/RectangleHOR.png" alt="img" />
       </div>
-      <div className="flex h-[100px]">
+      <div className="flex h-[100px] justify-center pt-[21px]">
         <p>Copyright © Organick | Designed by</p>
         <p>VictorFlow</p>
         <p>- Powered by</p>
