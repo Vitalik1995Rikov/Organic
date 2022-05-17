@@ -9,7 +9,7 @@ let Footer = () => {
   return (
     <div className="flex h-[630px] py-[120px] px-[30px]">
       <div className="w-[270px] h-[369px]">
-        <h1>Contact Us</h1>
+        <h1 className="font-['roboto'] text-3xl font-bold">Contact Us</h1>
         <p className="mt-[34px]">Email</p>
         <p className="mt-[5px]">needhelp@organick.com</p>
         <p className="mt-[38px]">Phone</p>
@@ -32,7 +32,7 @@ let Footer = () => {
       </div>
       <img src="../../assets/Rectangle.png" alt="img" />
       <div className="w-[335px] h-[369px] pl-[19px]">
-        <h1 className="text-3xl">Utility Pages</h1>
+        <h1 className="text-3xl font-['roboto']">Utility Pages</h1>
         <p className="mt-[20px]">Style Guide</p>
         <p className="mt-[24px]">Protected</p>
         <p className="mt-[24px]">Page Not Found</p>
