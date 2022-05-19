@@ -8,7 +8,7 @@ let data = [
 let Footer = () => {
   return (
     <div className="flex h-[630px] py-[120px] px-[30px]">
-      <div className="w-[270px] h-[369px]">
+      <div className="w-[270px] h-[369px] flex flex-col items-end mr-[19px]">
         <h1 className="font-['roboto'] text-3xl font-bold">Contact Us</h1>
         <p className="mt-[34px]">Email</p>
         <p className="mt-[5px]">needhelp@organick.com</p>
