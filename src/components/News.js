@@ -8,25 +8,19 @@ let News = () => {
       </div>
       <div className="flex">
         <div className="h-[515px] w-[670px] bg-[url('../../assets/Green.png')]">
-          <div className="px-[60px] pt-[39px] pb-[50px] absolute h-[337px] w-[610px] rounded-[30px] ml-[30px] mt-[40px] z-10 bg-[#FFFFFF]">
-            <p className="text-[#7EB693] text-3xl">Eco Friendly</p>
-            <p className="text-5xl">From our Farm</p>
-            <p className="text-5xl">to your Home.</p>
-            <p className="text-[#525C60]">
-              If you are not comfortable going to the nearby market place we also will deliver your
-              product to your doorstep.
-            </p>
+          <div className="px-[60px] pt-[39px] pb-[50px] absolute h-[337px] w-[610px] rounded-[30px] ml-[30px] mt-[250px] z-10 bg-[#FFFFFF] shadow-lg">
+            <p>Kristina Castle</p>
+            <p>Everything You Need to Know About Organic</p>
+            <p>Organic farming is the only way that you still can experience the real world.</p>
+            <p>View More</p>
           </div>
         </div>
         <div className="h-[515px] w-[670px] bg-[url('../../assets/Red.png')] ml-[30px]">
-          <div className="px-[6px] pt-[3px] pb-[50px] absolute h-[337px] w-[610px] rounded-[30px] ml-[30px] mt-[40px] z-10 bg-[#FFFFFF]">
-            <p className="text-[#7EB693] text-3xl">Eco Friendly</p>
-            <p className="text-5xl">From our Farm</p>
-            <p className="text-5xl">to your Home.</p>
-            <p className="text-[#525C60]">
-              If you are not comfortable going to the nearby market place we also will deliver your
-              product to your doorstep.
-            </p>
+          <div className="px-[6px] pt-[3px] pb-[50px] absolute h-[337px] w-[610px] rounded-[30px] ml-[30px] mt-[250px] z-10 bg-[#FFFFFF] shadow-lg">
+            <p>Alex Louis</p>
+            <p>Organic Fruits: Surprising Benefits and Facts</p>
+            <p>The world of nature has grown on the principles of health, ecology, and care.</p>
+            <p>View More</p>
           </div>
         </div>
       </div>
